@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+    border: solid;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 20px;
+}
+h2 {
+    color: brown;
+}
