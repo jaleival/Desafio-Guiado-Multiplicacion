@@ -3,7 +3,8 @@ let resultado = 0;
 let verificar = (numero) => {  
     do {
         if (numero < 1 || numero > 20){
-            alert('Número fuera de rango');
+            document.write('<h2>¡¡Número fuera de rango!!</h2>');
+            return false;
         }; 
     } while (numero < 1 || numero > 20);
 
